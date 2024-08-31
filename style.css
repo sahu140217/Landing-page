@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #f8f7ef;
+    background-image: url(sweets-865095_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-left: 20%;
+    
+}
+
+.container.text{
+    margin-top: 20px;
+}
+
+.text h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+}
+
+.text p{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    margin-left: 30%;
+    margin-top: 70px;
+    color: black;
+    background-color:pink;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: pink;
+    margin-top: 0;
+    }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    }
+    
+nav ul li {
+    margin-left: 1em;
+    }
+    
+nav ul li a {
+    color: #2e0606;
+    text-decoration: none;
+    margin-left: 8em;
+    }
+
+.Home{
+    margin-left: 8em;
+}
+
+.About{
+    margin-left: 10em;
+}
+
+.Variety{
+    margin-left: 10em;
+}
+
+.Contact{
+    margin-left: 10em;
+}
+
+    
+    
